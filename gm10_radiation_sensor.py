@@ -72,3 +72,6 @@ class GM10Sensor():
 
     def StopSurvey(self):
         self.cancelled = True
+      
+    def GetReadings(self):
+        return self.readings
