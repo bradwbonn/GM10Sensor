@@ -56,8 +56,8 @@ class GM10Sensor():
             mrhrlong = (cpssum / (ticks / 60)) / self.calibration
             self.radiation_level = {
                 "CPS": cps,
-                "mR/hr": mrhrshort,
-                "Avg mR/hr": mrhrlong,
+                "mRhr": mrhrshort,
+                "AvgmRhr": mrhrlong,
                 "Alert": alert,
                 "Average over seconds": ticks
             }
